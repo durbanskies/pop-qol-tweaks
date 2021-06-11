@@ -15,5 +15,12 @@
 - Dual boot steps (only pop os) : 
   - Pop OS can share windows EFI for efficent boot managment (NO NEED FOR REFIND)
   - Follow the [offical guide](https://support.system76.com/articles/dual-booting/)
-
-  
+- How to disable plymouth
+  - `sudo kernelstub --delete-options "quiet systemd.show_status=false splash"`
+- Wayland
+  - `sudo nano /etc/gdm3/custom.conf`
+  - add # before `WaylandEnable=false`
+  - `sudo systemctl restart gdm3`
+- Disable pop shop
+  - `sudo nano /usr/share/applications/io.elementary.appcenter-daemon.desktop`
+  - add # before `Exec=io.elemantry.appcenter -s`
