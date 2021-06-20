@@ -1,6 +1,9 @@
 #install for ubuntu
 sudo apt update && sudo apt upgrade
-sudo apt install git menulibre papirus-icon-theme gnome-shell-extensions gnome-tweaks flameshot virtualbox kazam wine python3-pip gdebi steam pop-sound-theme transmission totem timeshift gparted grub-customizer htop nautilus-admin
+sudo apt install git menulibre papirus-icon-theme gnome-shell-extensions gnome-tweaks flameshot
+sudo apt install virtualbox virtualbox-guest-additions-iso net-tools
+sudo apt install kazam wine python3-pip gdebi steam pop-sound-theme transmission totem timeshift gparted
+sudo apt install grub-customizer htop nautilus-admin
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 echo install these
 echo opening in firefox
