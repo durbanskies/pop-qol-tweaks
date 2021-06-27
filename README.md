@@ -42,12 +42,12 @@
   - `sudo nano /etc/gdm3/custom.conf`
   - add # before `WaylandEnable=false`
   - `sudo systemctl restart gdm3`
-- Modify power button actions
-  - `sudo nano /etc/systemd/logind.conf`
-  -  Edit these lines :
-    - 
 - Disable pop shop
   - `sudo nano /usr/share/applications/io.elementary.appcenter-daemon.desktop`
   - add # before `Exec=io.elemantry.appcenter -s`
 - Mask sleep functions
   - `sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target`
+- Modify power button actions
+  - `sudo nano /etc/systemd/logind.conf`
+  -  Edit these lines :
+<br> <img src=edit-lines.png>
