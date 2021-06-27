@@ -1,5 +1,4 @@
 #error looks like this
-# Reference commands, DONT RUN THIS AS SCRIPT
 #woeusb : Depends: libwxgtk3.0-0v5 (>= 3.0.4+dfsg) but it is not installable
 
 sudo add-apt-repository ppa:nilarimogard/webupd8
