@@ -42,6 +42,10 @@
   - `sudo nano /etc/gdm3/custom.conf`
   - add # before `WaylandEnable=false`
   - `sudo systemctl restart gdm3`
+- For some reason pop went back to yaru default cursors. Use the [paper theme](https://github.com/snwh/paper-icon-theme)
+  - It's inactive hence adding a ppa makes little sense, build from source instead
+  - `git clone https://github.com/snwh/paper-icon-theme.git && cd paper-icon-theme`
+  - `meson "build" --prefix=/usr && sudo ninja -C "build" install`
 - Disable pop shop
   - `sudo nano /usr/share/applications/io.elementary.appcenter-daemon.desktop`
   - add # before `Exec=io.elemantry.appcenter -s`
