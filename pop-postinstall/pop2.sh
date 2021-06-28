@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt install menulibre papirus-icon-theme gnome-tweaks neofetch #asthetic
 sudo apt install flameshot nautilus-admin transmission gparted #functional
-sudo apt install virtualbox wine wine32 python3-pip synaptic net-tools htop gdebi meson git default-jre #useful
+sudo apt install virtualbox wine wine32 python3-pip synaptic net-tools htop gdebi meson git default-jre unrar #useful
 #sudo apt install grub-customizer kazam vlc virtualbox-guest-additions-iso timeshift
 sudo apt update && sudo apt upgrade #sometimes apps dont come with latest versions from debs
 sudo kernelstub --delete-options "quiet systemd.show_status=false splash" #no plymouth = faster boot i think
