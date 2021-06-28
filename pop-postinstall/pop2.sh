@@ -10,7 +10,6 @@ firefox https://www.google.com/intl/en_in/chrome/ https://www.onlyoffice.com/en/
 git clone https://github.com/snwh/paper-icon-theme.git && cd paper-icon-theme
 meson "build" --prefix=/usr && sudo ninja -C "build" install
 echo paper icon theme build finished
-
 echo "gnome tweaks settings to change :
 
 animations - off
