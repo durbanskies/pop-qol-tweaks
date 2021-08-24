@@ -6,7 +6,7 @@ sudo apt install virtualbox wine wine32 python3-pip synaptic net-tools htop gdeb
 sudo apt update && sudo apt upgrade #sometimes apps dont come with latest versions from debs
 sudo kernelstub --delete-options "quiet systemd.show_status=false splash" #no plymouth = faster boot i think
 echo downlaod and install these
-firefox https://www.google.com/intl/en_in/chrome/ https://www.onlyoffice.com/en/download-desktop.aspx https://www.sublimetext.com/docs/linux_repositories.html https://code.visualstudio.com/download https://protonvpn.com/support/linux-ubuntu-vpn-setup/ https://zoom.us/download
+firefox https://www.google.com/intl/en_in/chrome/ https://brave.com/linux/ https://www.onlyoffice.com/en/download-desktop.aspx https://www.sublimetext.com/docs/linux_repositories.html https://code.visualstudio.com/download https://protonvpn.com/support/linux-ubuntu-vpn-setup/ https://zoom.us/download
 git clone https://github.com/snwh/paper-icon-theme.git && cd paper-icon-theme
 meson "build" --prefix=/usr && sudo ninja -C "build" install
 echo paper icon theme build finished
