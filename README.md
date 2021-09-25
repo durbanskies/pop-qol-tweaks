@@ -55,3 +55,5 @@
   - `sudo nano /etc/systemd/logind.conf`
   -  Edit these lines :
 <br> <img src=edit-lines.png>
+- Fix brightness by adding this as a boot parameter
+  - https://forums.developer.nvidia.com/t/brightness-not-working-ubuntu-20-04-lenovo-legion-5-15imh05/178058/17
